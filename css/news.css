@@ -61,7 +61,7 @@ p,h1,h2,h3,h4,h4,h6,div,span {
 	}
 
 	.discount_p1{
-		font-size: 25px;
+		font-size: 28px;
 		font-weight: bold;
 		color: #ec4a2f;
 		line-height: 20px;
@@ -120,12 +120,26 @@ p,h1,h2,h3,h4,h4,h6,div,span {
 
 	.blue{
         height: 16px;
-        background: linear-gradient(to right, #ffffff, #ade5fa);
+        background: linear-gradient(to right, #ffffff, #ade5fa, #ffffff);
+		animation: ease-in(to right);
+    	-webkit-animation:Moveright 3s infinite;
+	}
+
+	@-webkit-keyframes Moveright{
+		from {left:0%;}
+		to {left:50%;}
 	}
 
 	.yellow{
         height: 16px;
-        background: linear-gradient(to left, #ffffff, #fafead);
+		background: linear-gradient(to left, #ffffff, #fafead, #ffffff);
+		animation: ease-in(to left);
+    	-webkit-animation:Moveleft 3s infinite;
+	}
+
+	@-webkit-keyframes Moveleft{
+		from {right:0%;}
+		to {right:50%;}
 	}
 
 	.step .title{
@@ -307,12 +321,26 @@ p,h1,h2,h3,h4,h4,h6,div,span {
 
 	.blue{
         height: 16px;
-        background: linear-gradient(to right, #ffffff, #ade5fa);
+		background: linear-gradient(to right, #ffffff, #ade5fa, #ffffff);
+		animation: ease-in(to right);
+    	-webkit-animation:Moveright 3s infinite;
+	}
+
+	@-webkit-keyframes Moveright{
+		from {left:0%;}
+		to {left:65%;}
 	}
 
 	.yellow{
         height: 16px;
-        background: linear-gradient(to left, #ffffff, #fafead);
+		background: linear-gradient(to left, #ffffff, #fafead, #ffffff);
+		animation: ease-in(to left);
+    	-webkit-animation:Moveleft 3s infinite;
+	}
+
+	@-webkit-keyframes Moveleft{
+		from {right:0%;}
+		to {right:65%;}
 	}
 
 	.step .title{
@@ -494,12 +522,26 @@ p,h1,h2,h3,h4,h4,h6,div,span {
 
 	.blue{
         height: 25px;
-        background: linear-gradient(to right, #ffffff, #ade5fa);
+		background: linear-gradient(to right, #ffffff, #ade5fa, #ffffff);
+		animation: ease-in(to right);
+    	-webkit-animation:Moveright 3s infinite;
+	}
+
+	@-webkit-keyframes Moveright{
+		from {left:0%;}
+		to {left:80%;}
 	}
 
 	.yellow{
         height: 25px;
-        background: linear-gradient(to left, #ffffff, #fafead);
+		background: linear-gradient(to left, #ffffff, #fafead, #ffffff);
+		animation: ease-in(to left);
+    	-webkit-animation:Moveleft 3s infinite;
+	}
+
+	@-webkit-keyframes Moveleft{
+		from {right:0%;}
+		to {right:80%;}
 	}
 
 	.step .title{
